@@ -11,13 +11,14 @@ import { EmployeCountComponent} from './employee/employeeCount.component';
 import { EmployeeService } from './employee/employee.service';
 import { PageNotFound } from './others/pageNotFound.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { CitiesComponent } from './cities/cities.component';
 
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, EmployeeListComponent, EmployeeTitlePipe, EmployeCountComponent,HomeComponent,PageNotFound],
+  declarations: [AppComponent, EmployeeListComponent, EmployeeTitlePipe, EmployeCountComponent,HomeComponent,PageNotFound, CitiesComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule,NgbModule],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
